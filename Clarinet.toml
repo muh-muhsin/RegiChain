@@ -1,13 +1,13 @@
 [project]
 name = "RegiChain"
-description = ""
-authors = []
+description = "Verifiable, cross-border business registry credentials as on-chain NFTs"
+authors = ["RegiChain Team"]
 telemetry = false
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.regichain-credentials]
+path = "contracts/regichain-credentials.clar"
+epoch = "latest"
 
 [repl.analysis]
 passes = ["check_checker"]
